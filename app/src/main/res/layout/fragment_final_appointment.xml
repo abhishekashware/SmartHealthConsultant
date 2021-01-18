@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:orientation="vertical"
+    android:layout_height="match_parent"
+ >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginTop="65dp"
+    android:text="    Choose Date of Appointment :"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <DatePicker
+        android:id="@+id/datePicker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-10dp"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/confirm"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginStart="150dp"
+        />
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "89611711629",
+    "firebase_url": "https://smart-health-consultant-8ffa9.firebaseio.com",
+    "project_id": "smart-health-consultant-8ffa9",
+    "storage_bucket": "smart-health-consultant-8ffa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89611711629:android:a6135e6cdb19630afedec4",
+        "android_client_info": {
+          "package_name": "com.example.smarthealthconsultant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89611711629-i9p22amoh72rgqskgf274dc5fvc5jk6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACKd_TOhGvBtHkHgImcJz9sA1tGQbALBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89611711629-i9p22amoh72rgqskgf274dc5fvc5jk6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

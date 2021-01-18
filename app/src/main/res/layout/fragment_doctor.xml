@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    tools:context=".smarthealthconsultant.Main_Activity.MainFragmentClient">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rowone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="52dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/cardview_shadow_end_color"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:id="@+id/requests"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="25dp">
+
+                                        <ImageView
+                                            android:layout_width="60dp"
+                                            android:layout_height="60dp"
+                                            android:background="@drawable/patient_icon" />
+
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="15dp"
+                                            android:text="Patient Requests"
+
+                                            android:textColor="@color/bb_darkBackgroundColor"
+                                            android:textSize="20dp"
+                                            android:textStyle="bold" />
+
+                                </LinearLayout>
+
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:id="@+id/chat"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="25dp">
+
+                                        <ImageView
+                                            android:layout_width="60dp"
+                                            android:layout_height="60dp"
+                                            android:background="@drawable/chat_with" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="15dp"
+                                            android:text="Chat Patient"
+                                            android:textColor="@color/bb_darkBackgroundColor"
+                                            android:textSize="20dp"
+
+                                            android:textStyle="bold" />
+
+                                </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rowtwo"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rowone">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/cardview_shadow_end_color"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:id="@+id/profile"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="25dp">
+
+                                        <ImageView
+                                            android:id="@+id/profile_image"
+                                            android:layout_width="60dp"
+                                            android:layout_height="60dp"
+                                            android:background="@drawable/account" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="15dp"
+                                            android:text="My Profile"
+                                            android:textColor="@color/bb_darkBackgroundColor"
+                                            android:textSize="20dp"
+                                            android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+
+</FrameLayout>

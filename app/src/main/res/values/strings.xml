@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Smart Health Consultant</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="slide_1_title">Welcome to Smart Health Consultant</string>
+    <string name="slide_1_desc">The quickest &amp; easiest way to consult doctor and book appointment online</string>
+
+    <string name="slide_2_title">Book Appointment</string>
+    <string name="slide_2_desc">Book online appointment from anywhere!</string>
+
+    <string name="slide_3_title">Real Time Status</string>
+    <string name="slide_3_desc">Get Details of All Hospitals Available</string>
+
+    <string name="slide_4_title">Online Doctor Consultation</string>
+    <string name="slide_4_desc">Chat with Doctors from anywhere.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+
+    <string-array name="specialists">
+        <item>Acupuncturist</item>
+        <item>Allergist</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Dermatologist</item>
+        <item>Dietitian</item>
+        <item>Ear Nose Throat Doctor</item>
+        <item>Gastroenterologist</item>
+        <item>General Practitioner</item>
+        <item>Gynecologist</item>
+        <item>Hepatologist</item>
+        <item>Neurologist</item>
+        <item>Nutritionist</item>
+        <item>Optometrist</item>
+        <item>Podiatrist</item>
+        <item>Pulmonologist</item>
+        <item>Psychiatrist</item>
+        <item>Urologist</item>
+    </string-array>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_forgot_password">Forgot Password</string>
+    <string name="btn_link_to_register">Register</string>
+
+
+    <string name="enter_text_here">Enter Text Here.........</string>
+
+</resources>

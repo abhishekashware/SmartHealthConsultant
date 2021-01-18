@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    android:background="@color/colorSecondaryAccent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/back"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_action_navigation_arrow_back"
+        android:backgroundTint="@color/darkviolet"
+        android:layout_marginTop="-10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="110dp"
+        android:text="All Patients"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="94dp"
+        android:id="@+id/pat_recycler"
+        android:layout_marginBottom="60dp"
+        android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/remove"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textColor="@color/white"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="150dp"
+        android:background="@color/colorPrimary"/>
+</FrameLayout>

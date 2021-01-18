@@ -1,0 +1,266 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<include layout="@layout/app_bar_main"
+    android:id="@+id/inc"
+    app:layout_constraintTop_toTopOf="parent"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/inc"
+        android:id="@+id/scroll_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+               >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/theme_primary"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/doctorImage"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:adjustViewBounds="false"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/doctorName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="Wiliam Snoe"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/doctorSpel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="About"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="45dp"
+                android:orientation="vertical">
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:paddingLeft="25dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="36dp"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:src="@drawable/ic_email_black_24dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/email"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:hint="Email id"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="25dp"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:paddingLeft="25dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="36dp"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:src="@drawable/" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/doctorFee"-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:hint="Doctor fees"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="25dp">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/icons_coins" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Doctor Fees"
+                        android:layout_marginTop="8dp"
+                        />
+                    <TextView
+                        android:id="@+id/doctorAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:hint="1500"
+                        android:paddingLeft="20dp"
+                         />
+
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="25dp"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:paddingLeft="25dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="36dp"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:src="@mipmap/ic_phone_icon" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/patientNo"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:hint="Mobile Number"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="25dp"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:paddingLeft="25dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="36dp"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:src="@drawable/doctor_icon" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/Doctype"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:hint="Doctor Type"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="25dp"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:paddingLeft="25dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="36dp"-->
+<!--                        android:layout_height="36dp"-->
+<!--                        android:src="@drawable/ic_home_black_24dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/doctorEmail"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:hint="Address"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </LinearLayout>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/doc_id"
+                    android:text="sjhdfijs"
+                    android:visibility="gone"/>
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:id="@+id/buttons"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_alignParentBottom="true">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/bookAppointment"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@color/theme_primary"-->
+<!--                    android:text="Submit"-->
+<!--                    android:textColor="@color/cardview_light_background" />-->
+
+<!--            </LinearLayout>-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:id="@+id/chatnav"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buttonstyle"
+                android:backgroundTint="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="-40dp"
+                android:layout_marginStart="167dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/colorDivider">
+
+    <LinearLayout
+
+        android:id="@+id/manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/hospital_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="Manage Hospital"
+            android:background="@null"
+            android:textColor="@color/darkviolet"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:id="@+id/add_hos"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/manage_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:clickable="true"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/patient_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:text="Manage Patient"
+            android:background="@null"
+            android:textColor="@color/darkviolet"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/manage_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="-220dp"
+
+        android:clickable="true"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/doctor_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Doctors"
+            android:background="@null"
+            android:textSize="13dp"
+            android:textColor="@color/darkviolet"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            />
+    </LinearLayout>
+</LinearLayout>
